@@ -52,5 +52,5 @@ footer {
 .container {
   max-width: 800px; /* El espacio en ancho de la pag que voy a usar */
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
