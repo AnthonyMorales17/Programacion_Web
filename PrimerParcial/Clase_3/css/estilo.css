@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(6, 206, 106);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: black; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 18px;
+  text-align: justify;
+}
+
+strong {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+ol {
+    color: rgba(31, 20, 196, 0.836);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+dd {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+dt {
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+}
+
+.estilop {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#caracteristicas {
+  color: blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 800px; /* El espacio en ancho de la pag que voy a usar */
+  text-align: center;
+  margin: auto;
+}

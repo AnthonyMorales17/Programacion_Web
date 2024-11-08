@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Perfil img{
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+dd {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}  
+
+#Redes ul {
+    text-align: left;
+}
+
+.container {
+    max-width: 800px; 
+    text-align: center;
+    margin: auto;
+}
