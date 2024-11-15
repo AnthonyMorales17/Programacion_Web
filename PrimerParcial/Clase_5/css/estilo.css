@@ -53,11 +53,14 @@ nav ul a {
 }
 
 .aside {
-  flex: 1;
   background-color: bisque;
-  padding: 20px;
+  padding: 100px;
   border-radius: 1%;
   order: 1;
+}
+
+aside {
+  max-width: 400px;
 }
 
 .cuerpo {
