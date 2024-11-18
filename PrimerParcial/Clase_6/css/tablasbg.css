@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: rgb(16,10,119);
+    background: linear-gradient(90deg, rgba(16,10,119,1) 5%, rgba(65,9,121,1) 35%, rgba(19,82,145,1) 89%);
+    color: white;
+    font-size: 22px;   
+}
+
+caption {
+    background-color: aqua;
+}
+
+input[type="text"] {
+    border-bottom: 1px solid #0b0b0c;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #0b0b0c;
+}
+
+input[type="password"] {
+    background-color: transparent;
+    border-bottom: 1px solid #0f88ce;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+}
+
+input {
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 5%;
+    height: 20px;
+    background: rgb(3, 224, 3);
+    border: 100px;
+    color: black;
+    font-size: 18px;
+}
+
+input[type="text"]::placeholder{
+    color: yellowgreen;
+}
+
+input[type="passwprd"]::placeholder{
+    color: red;
+}
+
+::placeholder { 
+    color: rgb(230, 60, 18);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#txtNombres::placeholder {
+    color: #981298;
+}

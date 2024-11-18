@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tablasbg.css">
+    <title>Tablas</title>
+    <header>
+        <h1>Tablas</h1>
+        <p>El uso de la etiqueta <em>table</em>, es para el envío y recepcion de información</p>
+    </header>
+    <section>
+        <article>
+            <table frame="volq" rules="cols" border="2px" cellpadding="10px" cellspacing="0px">
+                <caption align="bottom">Lista de Estudiantes</caption>
+                <thead>
+                    <tr>
+                        <th align="center" width="200px">Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Dirección</th>
+                        <!--<th>Telefono</th>-->
+                    </tr> <!--FILAS-->
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">Anthony</td>
+                        <td>Morales</td>
+                        <td rowspan="4">Quito</td>
+                        <!--<td>0939453005</td>-->
+                    </tr>
+                    <tr>
+
+                        <td>Quito</td>
+                    </tr>
+                    <tr>
+
+                        <td>Quito</td>
+                    </tr>
+                    <tr>
+                        <td>Tu casa</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>Sum</td>
+                        <td>Sum</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+        <article>
+            <form>
+                <br>
+                <label>Nombres:</label>
+                <input type="text" maxlength="20" id="txtNombres" placeholder="Nombre">
+                <br>
+                <label>Apellidos:</label>
+                <input type="text" maxlength="20" id="txtApellidos" placeholder="Apellidos">
+                <br>
+                <label>Password:</label>
+                <input type="password" maxlength="8" id="txtPassword" placeholder="Contraseña">
+                <br>
+                <label>Tipo Persona:</label>
+                <select id="cboTipo">
+                    <option>Estudiante</option>
+                    <option>Docente</option>
+                    <option>Administrativo</option>
+                </select>
+                <br>
+                <label>Observación:</label>
+                <textarea name="taObservacion">
+                </textarea>
+                <br>
+                <input type="submit" id="btnenviar" value="Enviar">
+            </form>
+        </article>
+    </section>
+</head>
+<body>
+    
+</body>
+</html>
