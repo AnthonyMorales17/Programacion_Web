@@ -1,0 +1,54 @@
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icono_login{
+    display: block; 
+    margin: auto;
+}
+
+.login input[type="number"],
+.login input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-bottom: 2px solid #ccc; 
+            font-size: 16px;
+            box-sizing: border-box;
+}
+
+.login input[type="checkbox"]{
+    padding: 10px;
+    display: flex;
+    float: left;
+    text-align: left;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(227,86,3);
+    background: linear-gradient(90deg, rgba(227,86,3,1) 94%, rgba(255,160,58,1) 99%);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #f1efe9;
+    background: #181733;
+    background: linear-gradient(90deg, rgba(5,2,110,1) 50%, rgba(240,9,9,1) 80%);
+
+}
+
+nav a {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f1efe9;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.noticias {
+    background-color:aquamarine;
+    border-radius: 3%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cotejos {
+    background-color: aquamarine;
+    border-radius: 3%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    margin-left: px;
+    margin-top: 10px;
+    max-width: 350px;
+}
