@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #cccccc;
+
+}
+
+header {
+    background-color: blueviolet;
+
+}
+
+.section1 {
+    height: 400px;
+    background-color: black;
+    background-image: url(../imagenes/descargar.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section2 {
+    background-image: url(../imagenes/bg.png);
+    height: 400px;
+}
+
+.section3 {
+    height: 500px;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.section4 {
+    height: 1000px;
+}

@@ -12,7 +12,8 @@ header{
     top: 0;
     padding: 10px;
     width: 100vw;
-    
+    /*Superposicion de elementos*/
+    z-index: 1;
 }
 
 .barra_nav{
@@ -26,6 +27,7 @@ header{
 
 .tiendavitual {
     margin-top: 150px;
+    margin-bottom: 20px;
 }
 
 .btn_categorias{
@@ -76,6 +78,7 @@ aside{
     background-color: rgb(53, 53, 53);
     margin-right: 20px;
     padding: 10px;
+    /*box-shadow: 2px 0 5px 0*/
 }
 
 .moda{
@@ -84,10 +87,6 @@ aside{
     background-color: whitesmoke;
     color: black;
     margin-top: 20px;
-}
-
-article{
-    margin-top: 10px;
 }
 
 aside a {
@@ -105,14 +104,16 @@ aside a {
 }
 
 .mensajes{
-    position: fixed;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 20px;
     background-color: white;
     width: 300px;
     min-height: 100px;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
     padding: 10px;
-    margin: 20px;
+    margin: 0px;
     border-radius: 7px;
     text-align: center;
     display: flex;
@@ -122,13 +123,13 @@ aside a {
 }
 
 .caja_mensajes{
-    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-content: space-around;
     background-color: rgb(23, 32, 23);
     border-radius: 7px;
     color: white;
+    position: relative;
 }
 
 .mensajes img {
@@ -136,6 +137,7 @@ aside a {
 }
 
 footer{
+    position: relative;
     background: rgb(17,112,8);
     background: linear-gradient(90deg, rgba(17,112,8,1) 65%, rgba(21,167,31,1) 80%);    color: white;    justify-content: center;
     color: white;
@@ -154,7 +156,6 @@ footer button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-
 }
 
 footer a {
