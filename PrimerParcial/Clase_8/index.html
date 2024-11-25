@@ -4,65 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Revista Digital</title>
+    <title>Flex</title>
 </head>
 <body>
-    <header class="body-header">
+    <header>
         <h1>Titulo</h1>
-        <nav class="indice">
-            <ul>
-                <li><a href="#">Principal</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+        <nav class="navegador">
+            <a href="">Principal</a>
+            <a href="">Fotos</a>
+            <a href="">Videos</a>
+            <a href="">Contacto</a>
         </nav>
     </header>
-    <section class="body-section">
-        <article id="noticias">
-            <div class="group">
+    <div class="main-container">
+        <div class="container">
+            <div class="item item-1">
                 <div class="date">
                     <span class="date-day">09</span>
                     <span class="date-name">Miércoles</span>
                 </div>
-                <div class="content-1">
-                    <h2>Título del primer artículo</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut architecto possimus nobis, corrupti rem earum veritatis ad. </p>
-                    <div class="images">
-                        <img src="./images/back.jpeg" alt="Imagen 1">
-                        <img src="./images/back.jpeg" alt="Imagen 2">
-                        <img src="./images/back.jpeg" alt="Imagen 3">
-                    </div>
-                </div>
-            </div>
-            <div class="group">
+                <article class="item-content">
+                    <h2>Titulo del primer articulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum dicta nihil.</p>
+                </article>
+                    <img src="./images/shoes.jpg" alt="Imagen 1">
+                    <img src="./images/shoes.jpg" alt="Imagen 2">
+                    <img src="./images/shoes.jpg" alt="Imagen 3">
+            </div>            
+            <div class="item item-2">
                 <div class="date">
                     <span class="date-day">10</span>
                     <span class="date-name">Jueves</span>
                 </div>
-                <div class="content-2">
-                    <h2>Título del primer artículo</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut architecto possimus nobis, corrupti rem earum veritatis ad. </p>
-                    <div class="images">
-                        <img src="./images/back.jpeg" alt="Imagen 1">
-                        <img src="./images/back.jpeg" alt="Imagen 2">
-                        <img src="./images/back.jpeg" alt="Imagen 3">
-                    </div>
-                </div>
+                <article class="item-content">
+                <h2>Titulo del segundo articulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis blanditiis Animi harum dicta nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum dicta nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum dicta nihil Lorem ipsum dolor sit amet consectetur ad</p>
+                </article>
+                <img src="./images/shoes.jpg" alt="">
+                <img src="./images/shoes.jpg" alt="">
+                <img src="./images/shoes.jpg" alt="">
             </div>
-        </article>
-
+        </div>
         <aside class="aside">
-            <h3>Info personal</h3>
+            <h2>Info Personal</h2>
             <ul>
-                <li>Cita del artículo 1</li>
-                <li>Cita del artículo 2</li>
+                <li>Cita del articulo 1</li>
+                <li>Cita del articulo 2</li>
             </ul>
         </aside>
-    </section>
-
-    <footer>
-        2024 Anthony Morales | Revista Digital
-    </footer>
+    </div>
 </body>
+<footer>
+    @ 2024 Anthony Morales
+</footer>
 </html>
