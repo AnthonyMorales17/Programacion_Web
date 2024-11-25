@@ -4,6 +4,9 @@
 
 body {
     height: 500px;
+    background-color: white;
+    transition: background-color 0.5s ease;
+
 }
 
 .container {
@@ -95,6 +98,14 @@ Efecto en la imagen
 
 .card-content .price{
     color: rgb(14,4,107);
+}
+
+.container:has(.title:hover) .card img {
+    transform: scaleX(-1);
+}
+
+body:has(.title:hover) {
+    background-color: black;
 }
 
 .card-content h3 {
