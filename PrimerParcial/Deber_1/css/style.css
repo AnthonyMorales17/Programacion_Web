@@ -83,12 +83,12 @@ Efecto en la imagen
     color: inherit;
 }
 
-.card-content {
+.card-body {
     background-color: #ffffff; 
     color: inherit;
 }
 
-.card-content h2 {
+.card-body h2 {
     font-size: 20px;
     color: #000;
     font-weight: bold;
@@ -96,26 +96,26 @@ Efecto en la imagen
     text-align: justify;
 }
 
-.card-content .price{
+.card-body .price{
     color: rgb(14,4,107);
 }
 
-.container:has(.card-content:hover) .card img {
+.container:has(.card-body h2:hover) .card img {
     transform: scaleX(-1);
 }
 
-body:has(.card-content:hover) {
+body:has(.card-body h2:hover) {
     background-color: black;
 }
 
-.card-content h3 {
+.card-body h3 {
     font-size: 17px;
     color: #555454;
     margin: 10px 0;
     text-align: justify;
 }
 
-.card-content h4 {
+.card-body h4 {
     color: #000;    
     font-weight: bold;
     margin-top: 15px;
