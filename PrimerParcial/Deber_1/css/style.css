@@ -100,11 +100,11 @@ Efecto en la imagen
     color: rgb(14,4,107);
 }
 
-.container:has(.title:hover) .card img {
+.container:has(.card-content:hover) .card img {
     transform: scaleX(-1);
 }
 
-body:has(.title:hover) {
+body:has(.card-content:hover) {
     background-color: black;
 }
 
