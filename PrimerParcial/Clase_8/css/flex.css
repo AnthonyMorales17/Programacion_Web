@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+/**/
+
+.container {
+    display: flex;  /*todos los elementos con flex se aplica el estilo*/
+    border: 1px solid blue;
+    height: 500px;
+    width: 40%;
+}
+
+.container div {
+    height: 50px;
+}
+
+.item-1 {
+    flex: 0 0 100px;
+    background-color: red;
+
+}
+
+/*Detalles de los valores de flex*/
+/*
+flex: 1 1 100px; => flex-grow flex-shrink flex-basis
+flex-grow: 1; => Cuanto crece el elemento respecto al espacio disponible
+flex-shrink: 1; => Cuando se reduce el elemento respecto al espacio disponible
+flex-basis: 100px; => Tamaño inicial - Antes que crezca o se aplique grow y shrink
+*/
+
+.item-2 {
+    flex: 2 2 200px;
+    background-color: green;
+    
+}
+
+.item-3 {
+    flex: 1 1 100px;
+    background-color: chocolate;
+    
+}
+
+.item-4 {
+    flex: 1 2 100px;
+    background-color: yellow;
+    
+}
