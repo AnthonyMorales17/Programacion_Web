@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    height: 100%;
+}
+
+@keyframes cambiocolores {
+    0% {
+        background-color: #e8540f;
+    }
+
+    25% {
+        background-color: #ffa15f;
+        transform: scale(0.5);
+    }
+
+    50% {
+        background-color: #ffa15f;
+        transform: scale(1.1);
+    }
+
+    75% {
+        background-color: #ffa15f;
+        transform: scale(0.5);
+    }
+
+    100% {
+        background-color: #e8540f;
+    }
+
+}
+
+.circulo {
+    background-color: #ffa15f;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    animation-name: cambiocolores,volar;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease; Comienza lento, acelera y desacelera simultaneamente
+    animation-timing-function: steps(2, end); /*Divide la animacion en 5 pasos, ocurre al final del intervalo*/
+}
+
+@keyframes volar {
+    0% {}
+
+    20% {
+        transform: translate(200px, 0px); 
+    }
+
+    30% {
+        transform: translate(200px, 0px) rotate(90deg);
+    }
+
+    40% {
+        transform: translate(200px, 200px) rotate(90deg);
+    }
+
+    50% {
+        transform: translate(200px, 200px) rotate(180deg);
+    }
+
+    100% {}
+    
+}
+
+.avion {
+    animation-name: volar;
+    animation-duration: 13s;
+}
