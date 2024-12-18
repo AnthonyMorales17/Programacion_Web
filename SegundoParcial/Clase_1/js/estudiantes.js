@@ -1,24 +1,14 @@
-// const Pedro = [10, 5, 7, 8, 3];
-// const Maria = [5, 6, 8, 9, 10];
-// const Juan = [10, 5, 7, 8, 3];
-// const Edison = [5, 6, 8, 9, 10];
-// const Anthony = [10, 5, 7, 8, 3];
-// const Elizabeth = [5, 6, 8, 9, 10];
-// const Leo = [10, 5, 7, 8, 3];
-// const Jennifer = [5, 6, 8, 9, 10];
-
-
 const estudiantes = [
-    nombre = 'Pedro', calificaciones = [10, 5, 7, 8, 3],
-    nombre = 'Edison', calificaciones = [5, 6, 8, 9, 10],
-    nombre = 'Anthony', calificaciones = [10, 9, 2, 3, 3],
-    nombre = 'Maria', calificaciones = [4, 6, 7, 9, 10],
-    nombre = 'Elizabeth', calificaciones = [4, 3, 2, 9, 7],
-    nombre = 'Leo', calificaciones = [10, 6, 8, 9, 10],
-    nombre = 'Jennifer', calificaciones = [10, 10, 8, 9, 10],
-    nombre = 'Juan', calificaciones = [4, 4, 2, 9, 10],
-    nombre = 'Jordan', calificaciones = [8, 8, 8, 9, 1],
-    nombre = 'Fernando', calificaciones = [5, 6, 8, 4, 7]
+    {nombre: 'Pedro', calificaciones: [10, 5, 7, 8, 3]},
+    {nombre: 'Edison', calificaciones: [5, 6, 8, 9, 10]},
+    {nombre: 'Anthony', calificaciones: [10, 9, 2, 3, 3]},
+    {nombre: 'Maria', calificaciones : [4, 6, 7, 9, 10]},
+    {nombre: 'Elizabeth', calificaciones : [4, 3, 2, 9, 7]},
+    {nombre: 'Leo', calificaciones : [10, 6, 8, 9, 10]},
+    {nombre: 'Jennifer', calificaciones : [10, 10, 8, 9, 10]},
+    {nombre: 'Juan', calificaciones : [4, 4, 2, 9, 10]},
+    {nombre: 'Jordan', calificaciones : [8, 8, 8, 9, 1]},
+    {nombre: 'Fernando', calificaciones : [5, 6, 8, 4, 7]}
 ];
 
 for (let i = 0; i < estudiantes.length; i++) {
@@ -57,10 +47,9 @@ let estudiantePeor = estudiantes[0];
 for (let i = 0; i < estudiantes.length; i++) {
     if(estudiantes[i].promedio > estudianteMejor.promedio) {
         estudianteMejor = estudiantes[i];
-    } else if (estudiantes[i].promedio < estudiantePeor.promedio){
+    } 
+    if (estudiantes[i].promedio < estudiantePeor.promedio){
         estudiantePeor = estudiantes[i];
-    } else {
-        console.log("No se peude definir estudiante.")
     }
 }
 
@@ -76,8 +65,8 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 
 console.log(
-    `El estudiante con el peor promedio es ${peor.nombre} con un promedio de ${peor.promedio.toFixed(2)}`
+    `El estudiante con el peor promedio es ${estudiantePeor.nombre} con un promedio de ${estudiantePeor.promedio.toFixed(2)}`
 );
 console.log(
-    `El estudiante con el mejor promedio es ${mejor.nombre} con un promedio de ${mejor.promedio.toFixed(2)}`
+    `El estudiante con el mejor promedio es ${estudianteMejor.nombre} con un promedio de ${estudianteMejor.promedio.toFixed(2)}`
 );
