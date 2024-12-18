@@ -56,7 +56,7 @@ for (let i = 0; i < estudiantes.length; i++) {
 console.log("------------------------------");
 for (let i = 0; i < estudiantes.length; i++) {
     console.log(estudiantes[i].nombre);
-    console.log(`Calificación: ${estudiantes[i].clasificacion}`);
+    console.log(`Calificación: ${estudiantes[i].calificacion}`);
     console.log(`Promedio: ${estudiantes[i].promedio.toFixed(2)}`);
     console.log(`Calificación más alta: ${estudiantes[i].notaMax}`);
     console.log(`Calificación más baja: ${estudiantes[i].notaMin}`);
