@@ -59,7 +59,6 @@ console.log(maximo);
 
 let p = [1,2,3,4];
 let a = ['a', 'b', 'c'];
-a.push('aron');
 p.push(5);
 console.log(p);
 console.log(a);
