@@ -25,6 +25,9 @@ let inventario = {
 }
 
 Object.seal(inventario);
+inventario.nombre = 'Vans';
+delete inventario.nombre;
+console.log(inventario);
 
 function venderProducto(nombreProducto, cantidadVenta) {
     for (let clave in inventario){
