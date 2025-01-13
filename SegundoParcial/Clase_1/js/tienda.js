@@ -95,19 +95,6 @@ class Ventas {
             const producto = this.inventario.productos[i];
             console.log(`${producto.nombre} - Cantidad: ${producto.cantidad}`);
         }
-
-        console.log("Ventas realizadas:");
-        let totalIngresos = 0;
-        let productoMasVendido = { nombre: null, cantidad: 0 };
-
-        for (let i = 0; i < this.ventas.length; i++) {
-            const venta = this.ventas[i];
-            console.log(`Producto: ${venta.nombreProducto}, Cantidad: ${venta.cantidad}, Total: $${venta.total}`);
-            totalIngresos += venta.total;
-            if (venta.cantidad > productoMasVendido.cantidad) {
-                productoMasVendido = { nombre: venta.nombreProducto, cantidad: venta.cantidad };
-            }
-        }
     }
 }
 
