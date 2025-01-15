@@ -204,7 +204,7 @@ orden1.agregarProducto(producto3, 3);
 orden1.mostrarOrden();
 
 let orden2 = new Orden(); //creamos el segundo objeto de tipo orden
-let producto4 = new Producto('Teclado', 'Periferico', -1, 8);
+let producto4 = new Producto('Teclado', 'Periferico', -12, 8);
 let producto5 = new Producto('Cable de Red RJ-45', 'Electronica', 7, 7); // 7*0.10=6.30
 
 orden2.agregarProducto(producto1, 1);
