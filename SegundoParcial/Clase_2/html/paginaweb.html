@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control Interactivo</title>
+    <style>
+        #comentarios-area {
+            display: block;
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li:hover {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Panel de Control Interactivo</h1>
+
+    <button id="panel">Mostrar Panel</button>
+
+    <div id="configuracion">
+        <h2>Configuración</h2>
+
+        <!-- Cambiar Tema -->
+        <label for="tema">Tema:</label>
+        <select id="tema">
+            <option value="white">Claro</option>
+            <option value="black">Oscuro</option>
+            <option value="blue">Azul</option>
+        </select>
+
+        <br><br>
+
+        <!-- Cambiar Título -->
+        <label for="titulo_input">Título:</label>
+        <input type="text" id="titulo_input" placeholder="Escribe un nuevo título">
+
+        <br><br>
+
+        <!-- Área de Comentarios -->
+        <input type="checkbox" id="comentarios">
+        <label for="commentarios">Habilitar Área de Comentarios</label>
+        <textarea id="comentarios-area" disabled></textarea>
+    </div>
+
+    <!-- Lista Dinámica -->
+    <h2>Lista Dinámica</h2>
+    <ul id="dynamic-list">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+    <input type="text" id="list-input" placeholder="Agregar elemento">
+    <button id="add-item">Agregar</button>
+
+    <script>
+        // Elementos del DOM
+        var panelBtn = document.getElementById('panel');
+        var configuracion = document.getElementById('configuracion');
+        var seleccionTema = document.getElementById('tema');
+        var tituloInput = document.getElementById('titulo_input');
+        var Titulo = document.getElementById('titulo');
+        var commentarios = document.getElementById('comentarios');
+        var commentArea = document.getElementById('commentareos-area');
+
+        // Mostrar/Ocultar el panel de configuración
+        panelBtn.addEventListener('click', function() {
+            var isVisible = configuracion.style.display === 'block';
+            configuracion.style.display = isVisible ? 'none' : 'block';
+            panelBtn.textContent = isVisible ? 'Mostrar Panel' : 'Ocultar Panel';
+        });
+
+        // Cambiar el tema de la página
+        seleccionTema.addEventListener('change', function() {
+            var theme = seleccionTema.value;
+            if (theme === 'white') {
+                document.body.style.backgroundColor = 'white';
+                document.body.style.color = 'black';
+            } else if (theme === 'black') {
+                document.body.style.backgroundColor = 'black';
+                document.body.style.color = 'white';
+            } else if (theme === 'blue') {
+                document.body.style.backgroundColor = '#add8e6';
+                document.body.style.color = 'black';
+            }
+        });
+
+        // Actualizar título
+        tituloInput.addEventListener('input', function() {
+            Titulo.textContent = tituloInput.value || 'Panel de Control Interactivo';
+        });
+
+        // Habilitar deshabilitar comentarios
+        commentarios.addEventListener('change', function() {
+            commentArea.disabled = !commentarios.checked;
+        });
+    </script>
+</body>
+</html>
