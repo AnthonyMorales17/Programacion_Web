@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .titles {
+            color: magenta;
+        }
+    </style>
+    <title>DOM en JavaScript</title>
+</head>
+<body>
+    <div id="imagenes">
+        <img src="../images/descargar.jpeg" alt="imagen" id="imagen">
+        <img src="../images/1.jpeg" alt="imagen" id="imagen1">
+        <img src="../images/2.jpeg" alt="imagen" id="imagen2">
+        <img src="../images/3.jpeg" alt="imagen" id="imagen3">
+        <img src="../images/4.jpeg" alt="imagen" id="imagen4">
+
+    </div>
+    <script>
+
+        const imagenes = document.querySelectorAll('#imagenes img'); // Selecciona todas las imágenes del contenedor
+        let indice = 0;
+
+        function cambiarImagen() {
+            // Oculta todas las imágenes
+            imagenes.forEach(img => img.style.display = 'none');
+
+            // Muestra la imagen actual
+            imagenes[indice].style.display = 'block';
+
+            // Actualiza el índice de manera cíclica
+            indice = (indice + 1) % imagenes.length;
+        }
+
+        setInterval(cambiarImagen, 2000);
+    </script>
+</body>
+</html>
+
+
+
+<!-- <script>
+            function mostrar() {
+            let elementos = document.getElementsByClassName('titles');
+            for (const element of elementos) {
+                element.innerHTML += '<br> Nuevo Título'
+            }
+        }
+</script> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .titles {
+            color: magenta;
+        }
+    </style>
+    <title>DOM en JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo" class="titles">Manejo de DOM con JS</h1>
+    <h1 id="titulo2" class="titles">manejo de DOM con JS</h1>
+    <button id="btnMostrar" onclick="mostrar()" type="submit">Mostrar</button>
+    <br>
+    <img src="../images/1.jpeg" alt="imagen" id="imagen">
+    <!-- <header>
+        <h1 id="cabecera" class="azul">Titulo del documento</h1>
+        <p id="parrafo" class="azul">Parrafo N°1</p>
+        <p id="parrafo2" class="azul">Parrafo N°2</p>
+        <p id="parrafo3" class="azul">Parrafo N°3</p>
+    </header> -->
+    
+    <!-- <form id="formulario">
+        Nombre: <input type="text" name="nombre" value="Juan">
+        <br>
+        Apellido: <input type="text" name="apellido" value="Perez">
+        <br>
+        Correo: <input type="email" name="correo" value="jperez@gmail.com">
+    </form>
+    <button id="btnMostrar" onclick="mostrarValores()" type="submit">Mostrar</button>
+    <br>
+    
+    <div id="valores">
+
+    </div> -->
+    <script>
+        // document.write('Saludos desde Write!');
+        function mostrar() {
+            document.getElementById('imagen').src = '../images/descargar.jpeg';
+        }
+        // function mostrarValores() {
+        //     let formulario = document.forms['formulario'];
+        //     let texto = '';
+
+        //     for (const element of formulario) {
+        //         texto += element.value + '<br>';
+        //     }
+
+        //     //document.getElementById('valores').innerHTML = texto;
+
+        //     //Traer informacion de manera individual 
+        //     let nombre = formulario['nombre'];
+        //     let apellido = formulario['apellido'];
+        //     let correo = formulario['correo'];
+
+        //     texto = nombre.value + '<br>' + apellido.value + '<br>' + correo.value;
+        //     document.getElementById('valores').innerHTML = texto;
+        // }
+
+        // /*getElementById*/
+        // let cabecera = document.getElementById('cabecera'); //Retornar un objeto con sus respectivos atributos.//Si uso .innerHTML al final no se realiza ningun cambio aunque intente enviar nuevos datos
+        // //console.log('Valor cabecera:' + cabecera);
+
+        // console.log(`Valor cabecera: ${cabecera.innerHTML}`);
+        // let parrafo = document.getElementById('parrafo');
+        // console.log(`Valor parrafo: ${parrafo.innerHTML}`);
+
+        // //Enviar info
+        // parrafo.innerHTML = 'Nuevo valor de parrafo';
+        // console.log(`Nuevo valor parrafo: ${parrafo.innerHTML}`);
+
+        // cabecera.innerHTML = 'Cambio de Cabecera';
+        // console.log(`Nuevo valor cabecera: ${cabecera.innerHTML}`);
+
+        // getElementBytagenament
+        // let parrafos = document.getElementsByTagName('p');
+        // console.log(`Nro. de Parrafos: ${parrafos.length}`);
+
+        // for (const elements of parrafos) { //Impresion de los elementos del objeto
+        //     console.log(elements.innerHTML);
+        // }
+
+        // //getElementByClassName
+        // let elementos = document.getElementsByClassName('azul');
+        // console.log(`Nro. de Elementos : ${elementos.length}`);
+        
+        // for (const elements of elementos) {
+        //     console.log(elements.innerHTML);
+        // }
+
+        // querySelectorAll
+        // let elementos = document.querySelectorAll('p.azul');
+        // console.log(`Nro. de Elementos: ${elementos.length}`);
+
+        // for (const elements of elementos) {
+        //     console.log(elements.innerHTML);
+        // }
+    </script>
+</body>
+</html>
+
+
+
+<!-- <script>
+            function mostrar() {
+            let elementos = document.getElementsByClassName('titles');
+            for (const element of elementos) {
+                element.innerHTML += '<br> Nuevo Título'
+            }
+        }
+</script> --> -->

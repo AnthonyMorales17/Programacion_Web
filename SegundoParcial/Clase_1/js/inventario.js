@@ -77,3 +77,5 @@ venderProducto('Adidas', 100);
 
 //Aplicamos un descuento del 40%
 descuento(40);
+
+mostrarInventario();

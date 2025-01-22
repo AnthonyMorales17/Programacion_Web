@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Eventos con DOM JavaScript</title>
+</head>
+<!-- this: referencia a toda la estructura de un elemento, asi podemos abstraer todo tipo de funcionalidad del elemento.
+    Cookies: son archivos que guardan informacion cuando navegamos en la web.
+-->
+
+
+<body onload="entrar()">
+    <h1 id="titulo">Evento addListener</h1>
+    <br>
+    <br>
+    <form action="" method="get" id="formulario">
+        Nombre: <input type="text" id="nombre">
+        <br><br>
+        Apellido: <input type="text" id="apellido">
+    </form>
+
+    <script>
+        let formulario = document.getElementById('formulario');
+
+        formulario.addEventListener('focus', (evento) => {
+            evento.target.style.background = 'pink';
+        }, false);//Funcion callback
+        formulario.addEventListener('blur', (evento) => {
+            evento.target.style.background = '';
+        }, false);//Funcion Callback
+
+        formulario.addEventListener('focus', (evento) => {
+            evento.target.style.background = 'green';
+        }, false);
+        formulario.addEventListener('blur', (evento) => {
+            evento.target.style.background = '';
+        }, false);
+    </script>
+
+</body>
+
+<!-- <body>
+    <h1 id="titulo">Evento addListener</h1>
+    <br>
+    <br>
+    Nombre: <input type="text" id="nombre">
+    <br><br>
+    Apellido: <input type="text" id="apellido">
+    <script>
+        document.getElementById('nombre').addEventListener('focus', (evento) => {
+            evento.target.style.background = 'pink';
+        });//Funcion callback
+        document.getElementById('nombre').addEventListener('blur', (evento) => {
+            evento.target.style.background = '';
+        });//Funcion Callback
+
+        document.getElementById('apellido').addEventListener('focus', (evento) => {
+            evento.target.style.background = 'green';
+        });
+        document.getElementById('apellido').addEventListener('blur', regresar);
+
+        function cambiar(evento) {
+            let component = evento.target; // es igual a onfocus=cambiar(this)
+            component.style.background = 'yellow';
+        }
+
+        function regresar(evento) {
+            let component = evento.target; // es igual a onfocus=cambiar(this)
+            component.style.background = 'white';
+        }
+    </script>
+</body> -->
+
+<!-- <body>
+    <h1 id="titulo">Evento Onfocus y Onblur</h1>
+    <br>
+    <br>
+    Nombre: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+    <br><br>
+    Apellido: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+    <script>
+        
+        function cambiar(elementInput) {
+            elementInput.style.background = 'yellow';
+        }
+
+        function regresar(elementInput) {
+            elementInput.style.background = 'white';
+        }
+    </script>
+</body> -->
+
+<!-- <body onload="entrar()">
+    Esto se ejecutara cuando se termine de cargar la pagina actual
+    <h1 id="titulo" onmouseover="rojo(this)" onmouseout="azul(this)">Evento OnmouseOver y OnMouseOut</h1>
+    <br>
+    <br>
+    <script>
+        function rojo(titulo) {
+            titulo.style.color = 'red';
+        }
+
+        function azul(titulo) {
+            titulo.style.color = 'blue';
+        }
+    </script>
+</body> -->
+
+
+<!-- <body onload="entrar()">
+    <h1 id="titulo">Evento Onclick()</h1>
+    <br>
+    <br>
+    Nombre: <input type="text" onchange="convertir(this)">
+    <script>
+        function convertir(input) {
+            input.value = input.value.toUpperCase();
+        }
+    </script>
+</body> -->
+
+
+
+
+<!-- <body>
+    <h1 id="titulo" onclick="mostrar(this)">Evento Onclick()</h1>
+    <script>
+        //Estamos haciendo referencia, no estamos llamando a la funcion:
+        document.getElementById('titulo').onclick =  cambiarTexto;
+        //Funcion de tipo callback
+        
+        function cambiarTexto() {
+            document.getElementById('titulo').innerHTML = 'Otro nuevo cambio en el titulo';
+        }
+
+        // function mostrar() {
+        //     console.log(titulo);
+        //     titulo.innerHTML = 'Cambiamos de Titulo';
+        // }
+    </script>
+</body> -->
+</html>
