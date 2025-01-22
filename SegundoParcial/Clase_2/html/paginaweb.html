@@ -71,6 +71,9 @@
         var Titulo = document.getElementById('titulo');
         var commentarios = document.getElementById('comentarios');
         var commentArea = document.getElementById('commentareos-area');
+        var listInput = document.getElementById('list-input');
+        var addItemBtn = document.getElementById('add-item');
+        var dynamicList = document.getElementById('dynamic-list');
 
         // Mostrar/Ocultar el panel de configuración
         panelBtn.addEventListener('click', function() {
@@ -102,6 +105,24 @@
         // Habilitar deshabilitar comentarios
         commentarios.addEventListener('change', function() {
             commentArea.disabled = !commentarios.checked;
+        });
+
+        // Agregar un elemento a la lista
+        addItemBtn.addEventListener('click', function() {
+            var value = listInput.value.trim();
+            if (value) {
+                var li = document.createElement('li');
+                li.textContent = value;
+                dynamicList.appendChild(li);
+                listInput.value = '';
+            }
+        });
+
+        // Eliminar elementos de la lista (delegación de eventos)
+        dynamicList.addEventListener('click', function(e) {
+            if (e.target.tagName === 'LI') {
+                dynamicList.removeChild(e.target);
+            }
         });
     </script>
 </body>
