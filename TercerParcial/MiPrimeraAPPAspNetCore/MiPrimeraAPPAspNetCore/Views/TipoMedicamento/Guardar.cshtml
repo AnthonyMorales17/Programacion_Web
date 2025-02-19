@@ -1,0 +1,21 @@
+﻿@model CapaEntidad.TipoMedicamentoCLS
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<form method="post" asp-action="Guardar">
+    <div class="mb-3">
+        <label asp-for="nombre" class="form-label">Nombre</label>
+        <input asp-for="nombre" class="form-control">
+        <span asp-validation-for="nombre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="descripcion" class="form-label">Descripcion</label>
+        <input asp-for="descripcion" class="form-control">
+        <span asp-validation-for="descripcion" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

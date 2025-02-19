@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\views\\laboratorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\views\\laboratorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\js\\laboratorio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\js\\laboratorio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|c:\\users\\anthony\\source\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B55D49F1-9A9A-4C79-8C26-09F1D432E512}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bootstrap.rtl.css",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ViewState": "AgIAAIABAAAAAAAAAAAcwI8BAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-18T22:58:16.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAqwK8BAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-18T22:58:13.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "laboratorio.js",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\laboratorio.js",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\laboratorio.js",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\laboratorio.js",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\laboratorio.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-18T22:40:46.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAIMBAAAAAAAAAAAcwJwBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-18T22:30:18.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Views\\Laboratorio\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\Views\\Laboratorio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Views\\Laboratorio\\Index.cshtml",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\Views\\Laboratorio\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T22:26:11.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tipomedicamento.js",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\tipomedicamento.js",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\tipomedicamento.js",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\tipomedicamento.js",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\tipomedicamento.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-18T21:56:15.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "generic.js",
+              "DocumentMoniker": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\generic.js",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\generic.js",
+              "ToolTip": "C:\\Users\\ANTHONY\\source\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\wwwroot\\js\\generic.js",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\wwwroot\\js\\generic.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-18T21:55:11.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

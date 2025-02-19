@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Laboratorios";
+}
+
+<h1>Laboratorios</h1>
+
+<fieldset>
+    <legend>Busqueda de Laboratorios</legend>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Sinovac">
+        </div>
+        <div class="col-md-6">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" name="direccion" id="direccion" placeholder="NW 125th St">
+        </div>
+        <div class="col-12">
+            <label for="personaconteacto" class="form-label">Persona Contacto</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Persona Contato">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary" onclick="">Buscar</button>
+            <button type="button" class="btn btn-success" onclick="">Limpiar</button>
+        </div>
+    </form>
+</fieldset>
+
+<div id="divTabla">
+</div>
+
+<script src="~/js/generic.js"></script>
+<script src="~/js/laboratorio.js"></script>
+
